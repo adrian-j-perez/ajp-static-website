@@ -52,10 +52,11 @@ current file structure:
  
 Under the view directory, it holds custom html elements that are used repeatly 
 on the website this help manage elements. This helps maintaining the code all in one spot and all is need to using it is importing the files.
-To use the custom elements import the CSS add JS file with in the header tag then in the body add the custom html tags. 
+To use the custom elements import the JS file with in the header tag then in the body add the custom html tags. 
 
 Current cusom html elements:
 - footer
+  - **note to get the footer to 'stick' to the bottom of the page the md-clock need to be present as that add spacing from the css**
 - nav bar
 
 Example Code:
