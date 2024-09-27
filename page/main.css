@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     padding: 0;
@@ -8,16 +9,17 @@ body {
 /* markdown style */
 md-block {
     font-family: monospace;
-    font-size: 16px;
+    font-size: 18px;
 }
-
-/* md-block[] {} */
 
 .md-block {
     padding-left: 10%;
     padding-right: 10%;
+    padding-bottom: 2%;
+    padding-top: 1%;
+    /* adding a min hight to help footer  */
+    min-height: 55vh;  
 }
-
 
 /* these are class name - will try to not use these */
 .myH2 {
@@ -33,6 +35,6 @@ md-block {
 }
 
 .material-symbols-outlined {
+    /* this deals with google icons */
     font-size: larger;
-    
 }

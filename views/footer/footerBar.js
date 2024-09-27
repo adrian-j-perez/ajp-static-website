@@ -1,20 +1,27 @@
 class FooterBarHeader extends HTMLElement {
     // injecting html, along with css 
     // note for css path, name needs to match with path of injection
-        // else css will not be applied
-    
+    // else css will not be applied
+
     connectedCallback() {
         // this is a accent ` not a quote '
         this.innerHTML = `
 
 <link rel="stylesheet" href="./../views/footer/footerBar.css">    
 
-<footer> 
-<hr>
-<p>"Code to learn, don't learn to code."</p>
-<p>Copyright &#169;2024 - Website: adrianjperez.com</p>
+ <div id="page-container">
+   
+    <div id="content-wrap">
+     <!-- all other page content -->
+   </div>
 
-</footer>
+   <footer id="footer">
+    <hr>
+    <p>"Code to learn, don't learn to code."</p>
+    <p>Copyright &#169;2024 - Website: adrianjperez.com</p>
+   </footer>
+
+ </div>
 
 `;
     } // end of function

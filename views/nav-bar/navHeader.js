@@ -8,7 +8,7 @@ class NavBarHeader extends HTMLElement {
 <nav class="nav">
     <div class="container">
         <div class="logo">
-            <a href="./index.html">Your Logo</a>
+            <a href="./index.html">Home</a>
         </div>
         <div id="mainListDiv" class="main_list">
             <ul class="navlinks">
