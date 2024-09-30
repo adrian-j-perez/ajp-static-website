@@ -18,7 +18,7 @@ class FooterBarHeader extends HTMLElement {
    <footer id="footer">
     <hr>
     <p>"Code to learn, don't learn to code."</p>
-    <p>Copyright &#169;2024 - Website: adrianjperez.com</p>
+    <p>Copyright &#169; 2024 - Website: ajp.adrianjperez.com</p>
    </footer>
 
  </div>
