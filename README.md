@@ -1,6 +1,11 @@
 # README 
 
-This repo is using to host the domain path `----.adrianjperez.com`
+This repo is using to host the domain path `ajp.adrianjperez.com`
+
+`https://adrian-j-perez.github.io/ajp-static-website/`
+- this was the old host name that github supplied
+- 
+
 using github page to host site 
 - for more info: https://docs.github.com/en/pages
 
@@ -26,10 +31,9 @@ Packages/Librays using:
 
 TODO
 - **fix mobile view for the nave bar not show the other tabs**
-- look into the github page set up and what come with using the servie
-- take advanage of .gihub dir to config website settings ?
+- take advanage of .github dir to config website settings for 400?
 - make other page like about, look at the profolio 
-
+- **look at the github action currently its building for jekyll but it just need to do it for static??**
 
 ## website structure 
 
