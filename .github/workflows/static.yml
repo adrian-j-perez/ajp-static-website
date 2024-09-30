@@ -27,7 +27,7 @@ jobs:
     environment:
       name: github-pages
       # setting home landing page to index.html
-      url: ${{ steps.deployment.outputs.page_url }}/page/index.html
+      url: ${{ steps.deployment.outputs.page_url }}page/index.html
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
