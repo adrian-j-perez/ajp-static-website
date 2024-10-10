@@ -35,9 +35,9 @@ TODO
 - **fix mobile view for the nave bar not show the other tabs**
 - take advanage of .github dir to config website settings for 400?
 - make other page like to list article  
-- need to add a index.html to the home in the root dir .... se what i can do of if i will end up with two differnt file call index????
-- relook at the cname file and why it need to be present in  repo... i now if for the scerpyt ???  for the cutim host name  
-- `window.location.href = 'newPage.html';` use this as  redicrt to get to the home have
+- ~~need to add a index.html to the home in the root dir .... se what i can do of if i will end up with two differnt file call index????~~
+- relook at the cname file and why it need to be present in  repo... 
+- ~~`window.location.href = 'newPage.html';` use this as  redict to get to the home have~~
 
 
 ## website structure 
