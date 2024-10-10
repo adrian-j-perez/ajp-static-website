@@ -6,7 +6,7 @@ body {
     font-family: "Quicksand", sans-serif;
 }
 
-/* markdown style */
+/* markdown style block - get inject from cdn module */
 md-block {
     font-family: monospace;
     font-size: 18px;
@@ -17,7 +17,7 @@ md-block {
     padding-right: 10%;
     padding-bottom: 2%;
     padding-top: 1%;
-    /* adding a min hight to help footer  */
+    /* adding a min height to help keep footer at the botton of the page*/
     min-height: 55vh;  
 }
 
