@@ -38,6 +38,9 @@ TODO
 - ~~need to add a index.html to the home in the root dir .... se what i can do of if i will end up with two differnt file call index????~~
 - relook at the cname file and why it need to be present in  repo... 
 - ~~`window.location.href = 'newPage.html';` use this as  redict to get to the home have~~
+- add the sha hash for integrity check on the script tags... will need to add on using moudle script tags
+  - https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity
+- 
 
 
 ## website structure 
@@ -47,6 +50,8 @@ TODO
 current file structure: 
 
 .
+├───.github
+│   └───workflows
 ├───md-files
 ├───page
 ├───public
