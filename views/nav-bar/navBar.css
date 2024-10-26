@@ -29,7 +29,9 @@
 }
 
 .nav div.logo a:hover {
-    color: #00E676;
+    /* color: #00E676; */
+    /* color based on win 10 blue theme */
+    color: #86CAFF;
 }
 
 .nav div.main_list {
@@ -61,7 +63,7 @@
 }
 
 .nav div.main_list ul li a:hover {
-    color: #00E676;
+    color: #86CAFF;
 }
 
 
