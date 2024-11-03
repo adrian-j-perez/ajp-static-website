@@ -3,6 +3,12 @@
 
 ## Adrian Perez
 
+
+![image adrian Perez](./../public/images/image-adrian.jpg)
+
+*image of my face...*
+
+
 ### Introduction
 
 Hello person welcome to my website as you saw up top my name is Adrian and I graduated in May 2022 at Lewis University. I did school full time for four years in a row,  So, most I spent most of my time doing homework, learning something new, or just working on the weekend. I majored in Computer Science with a concetration in Software Engineering, along with a minor in Mathematics, i was also able to learn about the world of cyber security.
