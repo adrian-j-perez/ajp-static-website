@@ -5,14 +5,31 @@ body {
     box-sizing: border-box;
     font-family: "Quicksand", sans-serif;
 }
+/* todo reformate thing  */
 
 /* color based on win 10 theme */
 a:link {
     color: #1776C1;
 }
-a:visited, a:hover {
+a:visited  {
     color: #11A8AB;
 }
+
+a:hover {
+    color: #11A8AB;
+}
+footer a {
+    all:unset;
+}
+footer a:visited {
+    color:white;
+
+}
+footer a:hover {
+    color:#11A8AB;
+
+}
+
 
 /* markdown style block - get inject from cdn module */
 md-block {

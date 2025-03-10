@@ -23,6 +23,8 @@ https://sonarcloud.io/project/overview?id=adrian-j-perez_ajp-static-website
 - ~~prismjs - this is for code block the see better https://prismjs.com/ ~~
 - jquery
   - https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js
+- https://github.com/Remix-Design/RemixIcon
+  -  will use this to start replace the other icons libs
 
 *import these Librays by CDN*
 
