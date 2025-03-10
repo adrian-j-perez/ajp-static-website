@@ -1,18 +1,20 @@
 # README 
 
-This repo is using to host the domain path `ajp.adrianjperez.com`
+Repo is hosting website for `ajp.adrianjperez.com`
 
 `https://adrian-j-perez.github.io/ajp-static-website/`
 - this was the old host name that github supplied
 
-using github page to host site 
-- for more info: https://docs.github.com/en/pages
-
 ## Scans
 
-using sonar for the code scanning 
+[![Deploy static site - no build](https://github.com/adrian-j-perez/ajp-static-website/actions/workflows/deploy-static-site.yml/badge.svg)](https://github.com/adrian-j-perez/ajp-static-website/actions/workflows/deploy-static-site.yml)
 
-Packages/Librays using:
+
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=adrian-j-perez_ajp-static-website)](https://sonarcloud.io/summary/new_code?id=adrian-j-perez_ajp-static-website)
+
+https://sonarcloud.io/project/overview?id=adrian-j-perez_ajp-static-website
+
+## modules / Librays
 - md-block
   - https://md-block.verou.me/md-block.js
 - Google font and icons
@@ -33,17 +35,22 @@ Packages/Librays using:
 
 TODO
 - **fix mobile view for the nave bar not show the other tabs**
-- take advanage of .github dir to config website settings for 400?
+- ~~take advantage of .github dir to config website settings for 400?~~
+  - no longer possible, as this this method took advantage of Jekyll 
 - make other page like to list article  
 - ~~need to add a index.html to the home in the root dir .... se what i can do of if i will end up with two differnt file call index????~~
 - relook at the cname file and why it need to be present in  repo... 
 - ~~`window.location.href = 'newPage.html';` use this as  redict to get to the home have~~
-- add the sha hash for integrity check on the script tags... will need to add on using moudle script tags
+- add the sha hash for integrity check on the script tags... will need to add on using module script tags
   - https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity
-- 
+- home pages embeds Example: how google does when you paste the google link in discord
+  - https://stackoverflow.com/questions/59335731/how-to-create-own-embed-site-for-discord
 
 
 ## website structure 
+
+website home page when going to `ajp.adrianjperez.com` will end up with path `/page.home.html`
+in the root of the repo there is a index.html that does a redirect 
 
 ### Folder Structure 
 ``` 
@@ -61,36 +68,4 @@ current file structure:
     └───nav-bar
 
 ```
-
-### Views Folder: Custom HTML Elements
- 
-Under the view directory, it holds custom html elements that are used repeatly 
-on the website this help manage elements. This helps maintaining the code all in one spot and all is need to using it is importing the files.
-To use the custom elements import the JS file with in the header tag then in the body add the custom html tags. 
-
-Current cusom html elements:
-- footer
-  - **note to get the footer to 'stick' to the bottom of the page the md-clock need to be present as that add spacing from the css**
-- nav bar
-
-Example Code:
-
-```html 
-<!-- Example of implementing footer -->
-<head>
-
-    <link rel="stylesheet" href="./<path-to-css>/main.css">
-
-    <!-- footer tag -->
-    <script src="./<path-to-footer>/views/footer/footerBar.js"></script>
-</head>
-
-<body>
-    <!-- add footer -->
-    <footerbar-header></footerbar-header>
-</body>
-
-```
-  
-
 
