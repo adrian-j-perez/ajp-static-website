@@ -1,5 +1,5 @@
 
-# About
+# About Me
 
 ## Adrian Perez
 
@@ -9,27 +9,61 @@
 *image of my face...*
 
 
-### Introduction
+## Introduction
 
-Hello person welcome to my website as you saw up top my name is Adrian and I graduated in May 2022 at Lewis University. I did school full time for four years in a row,  So, most I spent most of my time doing homework, learning something new, or just working on the weekend. I majored in Computer Science with a concetration in Software Engineering, along with a minor in Mathematics, i was also able to learn about the world of cyber security.
+I am a Software Engineer with about 3+ years of experience, specializing in backend (server-side) development using technologies like Java Spring, REST APIs, Kafka, Docker, Kubernetes, and more. I like to learn and gain new skills that can help me improve my work. I also like to get involved with client-side development, as it allows me to see the whole process of how a website works and fetches data for the user.
+
+### List of Technologies I Know 
+Programming Languages:
+- Java
+- Python
+- JavaScript/TypeScript
+- Bash
+- PowerShell
+- SQL
+- ...
+  
+Other Languages:
+- HTML
+- CSS
+- XML
+- Markdown
+- ...
+
+### Other Skills
+- Spring Framework
+- Angular
+- Docker / Docker-Compose
+- Kubernetes
+- Apache Kafka
+- Azure
+- Linux
+- AWS
+- Node
+- Git
+- Junit
+- JSON
+- ...
+
+
+## Background
+
+Hello, and welcome to my website! As you saw at the top, my name is Adrian, and I graduated in May 2022 from Lewis University. I attended school full-time for four years, during that time I spent most of my time learning something new, homework, or working on weekends. I majored in Computer Science with a concentration in Software Engineering with a minor in Mathematics. While at collage I found a interest in Cyber Security and Data Science 
 
 ### What I Hope to Learn
 
-*   Learn more about back end
-*   Learn front end
-*   familiarize myself with common development technology's
+*   Learn Backend technologies  
+*   Learn more about the frontend
+*   Full Stack
+*   Familiarize myself with common development technology's
 
-### My Favorite Hobby
+### My Favorite Hobbies
 
-When I have time for my hobbies, my favorite one is watching tv or some kind of videos like going on YouTube there is something about this that I find relaxing. This hobby is quite simple compared to some of my other hobbies, all I have to do is just lay on the couch and turn on the tv, but this hobby can get old pretty fast if there is not anything interesting to watch. So, some other hobbies of mine are playing some video games with my peers, going through social media (looking at memes), practicing the trumpet, and messing around with computers. These are some of my current hobbies that I like to do when I find myself with free time.
+When I have free time, one of my favorite hobbies is watching TV or browsing videos, like on YouTube. There's something about it that I find relaxing. This hobby is quite simple compared to some of my others — all I have to do is lay on the couch and turn on the TV. However, it can get old pretty quickly if there’s nothing interesting to watch.
 
-### Greatest Innovation
+Some of my other hobbies include playing video games with friend, scrolling through social media (mainly looking at memes), practicing the trumpet, and tinkering with computers. These are just a few of my current hobbies that I enjoy when I find myself with some free time.
 
-*   The Internet - Its like everyone uses and relies on the internet [Britannica - Internet](https://www.britannica.com/technology/Internet)
-*   Linux - There seem to many uses for this OS and it's still relevant [Britannica - Linux](https://www.britannica.com/technology/Linux)
-*   General Computing - The company that lead the way for CPUs [geeksforgeeks - General Purpose Computer ](https://www.geeksforgeeks.org/what-is-a-general-purpose-computer/)
-
-### Fun Fact!
+# Fun Fact!
 
 A fun fact about me is that if I were to choose a superpower it would be super speed
 

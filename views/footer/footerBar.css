@@ -1,6 +1,6 @@
-
+/* I might move this to the main?? */
 footer {
-  
+    /* to deal with footer location */
     text-align: center;
     font-size: medium;
     background-color: black;
@@ -8,11 +8,4 @@ footer {
     padding-top: 5vh;
     padding-bottom: 5vh;
 
-    /* to deal with footer location */
-    /* position: absolute; */
-    /* bottom: 0; */
-    /* width: 100%; */
-
-
-} 
-  
+}

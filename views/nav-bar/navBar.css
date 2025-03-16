@@ -74,7 +74,8 @@
     width: 100%;
     height: 33vh;
     background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/309ce4a5-7825-4c99-a509-da3ee1318e53/depn29k-9592e739-5131-4be2-9112-f85a68117bfd.jpg/v1/fill/w_1287,h_621,q_70,strp/deconstruction_of_shooting_stars_by_thiojoejoe_depn29k-pre.jpg) ;
-    
+    /* todo change this and make it run a local image dir instead from the website */
+
     /* url(https://images.unsplash.com/photo-1498550744921-75f79806b8a7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b0f6908fa5e81286213c7211276e6b3d&auto=format&fit=crop&w=1500&q=80); */
     
     background-position: center top;

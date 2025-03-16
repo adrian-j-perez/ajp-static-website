@@ -1,4 +1,4 @@
 
-Hello, you can reach me by email, but feel free to check out my Linkedin.
+Hello, welcome to my contact page feel free to connect and reach out if you have some questions.
+You can see a list above on the different ways to get in touch (email is my preference).
 
-*will add more contact info or websites later...*

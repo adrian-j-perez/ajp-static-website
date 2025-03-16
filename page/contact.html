@@ -9,95 +9,26 @@
     <title>Contact</title>
 
     <!-- outside depends -->
+    
+    <!-- this is for the nav bar animation -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
     <script type="module" src="https://md-block.verou.me/md-block.js"></script>
 
-    <!-- google icons that are filled -->
-    <!-- this is a variable icon font link -->
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
-
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
 
     <!-- list of local assets -->
 
     <link rel="stylesheet" href="./main.css">
+
     <script src="./main.js"></script>
+
     <!-- add nav bar -->
     <script src="./../views/nav-bar/navHeader.js"></script>
+
     <!-- footer tag -->
     <script src="./../views/footer/footerBar.js"></script>
-
-
-    <style>
-        /* style added to have tooltip over icon */
-        .tooltip {
-            position: relative;
-            display: inline-block;
-        }
-
-        .tooltip .tooltiptext {
-            visibility: hidden;
-            width: 140px;
-            background-color: #555;
-            color: #fff;
-            text-align: center;
-            border-radius: 6px;
-            padding: 5px;
-            position: absolute;
-            z-index: 1;
-            bottom: 150%;
-            left: 50%;
-            margin-left: -75px;
-            opacity: 0;
-            transition: opacity 0.3s;
-        }
-
-        .tooltip .tooltiptext::after {
-            content: "";
-            position: absolute;
-            top: 100%;
-            left: 50%;
-            margin-left: -5px;
-            border-width: 5px;
-            border-style: solid;
-            border-color: #555 transparent transparent transparent;
-        }
-
-        .tooltip:hover .tooltiptext {
-            visibility: visible;
-            opacity: 1;
-        }
-    </style>
-
-    <script>
-
-        /* copy text referance
-         https://www.w3schools.com/howto/howto_js_copy_clipboard.asp
-        
-        */
-
-        function copyToClipboard(copyToClipboard, myid) {
-
-            //find element
-            console.log("element id is... " + myid);
-            var tooltip = document.getElementById(myid);
-
-            // copy the text
-            navigator.clipboard.writeText(copyToClipboard);
-            tooltip.innerHTML = "Copied!!!";
-
-            console.log("copyToClipboard... " + copyToClipboard);
-
-        }
-
-        // change back to original text tooltip when onmouseout
-        function toolTipHover(myid) {
-            console.log('toolTipHover - reset tooltiptext - ID: ' + myid);
-            var tooltip = document.getElementById(myid);
-            tooltip.innerHTML = "Copy to clipboard";
-        }
-
-    </script>
 
 </head>
 
@@ -106,52 +37,27 @@
     <!-- add nav bar -->
     <navbar-header></navbar-header>
 
-    <h2 class="myH2">Contact
-
-    </h2>
+    <h2 class="myH2">Contact</h2>
 
     <div class="myP">
+        <i class="ri-mail-fill"></i>
 
-        <span class="material-symbols-outlined">
-            mail
-        </span>
-
-        Email: <a href="mailto:perez324158@gmail.com">perez324158@gmail.com</a>
-
-        <div class="tooltip" onclick="copyToClipboard('perez324158@gmail.com', 'myTooltip')"
-            onmouseout="toolTipHover('myTooltip')">
-
-            <span>
-                <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
-
-                <!-- copy icon -->
-                <span class="material-symbols-outlined">content_copy</span>
-            </span>
-        </div>
-
+        Email:
+        <a href="mailto:perez324158@gmail.com">perez324158@gmail.com</a>
     </div>
 
     <div class="myP">
-        <span class="material-symbols-outlined">
-            link
-        </span>
+        <i class="ri-linkedin-fill"></i>
 
-        Linkedin: <a target="_blank"
-            href="https://www.linkedin.com/in/adrian-j-perez/">www.linkedin.com/in/adrian-j-perez/</a>
+        Linkedin:
+        <a target="_blank" href="https://in.adrianjperez.com">in.adrianjperez.com</a>
+    </div>
 
-        <!-- set tooltip on div level to make sure area is a good amount to perform onmouseout function -->
+    <div class="myP">
+        <i class="ri-github-fill"></i>
 
-        <div class="tooltip" onclick="copyToClipboard('https:\/\/www.linkedin.com/in/adrian-j-perez/', 'linkedthing')"
-            onmouseout="toolTipHover('linkedthing')">
-
-            <span>
-                <span class="tooltiptext" id="linkedthing">Copy to clipboard</span>
-
-                <!-- copy icon -->
-                <span class="material-symbols-outlined">content_copy</span>
-            </span>
-        </div>
-
+        Github:
+        <a target="_blank" href="https://github.adrianjperez.com">github.adrianjperez.com</a>
     </div>
 
 
@@ -159,6 +65,7 @@
         <md-block src="./../md-files/contact.md">
             # Error Loading File...
             issue with loading markdown file
+            ## Fallback Text
         </md-block>
     </div>
 
