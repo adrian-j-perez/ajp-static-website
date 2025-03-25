@@ -27,12 +27,13 @@ by default it will make a url http://localhost:8000/
 
 # Optional Config Option 
 
-by using `http.server` you can change the port and the directory location that it will serve up
-can be useful if you current environment is already using the default port of 8000
+by using `http.server` you can change the port and the directory location that it will serve up, which
+can be useful if your current environment is already using the default port of 8000
 
 ## Port
 
 `python -m http.server <port-number>`
+
 example:
 `python -m http.server 8080`
 
