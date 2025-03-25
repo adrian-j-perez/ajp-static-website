@@ -26,9 +26,8 @@ class FooterBarHeader extends HTMLElement {
     <a href="https://ajp.adrianjperez.com">ajp.adrianjperez.com</a> 
     </p>
     
-    <div style="font-size: 24px">
+    <div class="footer_icons">
 
-    
     <a href="https://in.adrianjperez.com" target="_blank" >
     <i class="ri-linkedin-fill"></i>
     </a>
@@ -42,6 +41,7 @@ class FooterBarHeader extends HTMLElement {
     </a>
     
     </div>
+    
    </footer>
 
  </div>

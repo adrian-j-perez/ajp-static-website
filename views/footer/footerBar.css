@@ -9,3 +9,23 @@ footer {
     padding-bottom: 5vh;
 
 }
+
+/* handles links style in footer */
+footer a {
+    /* remove all default style */
+    all: unset;
+}
+
+footer a:visited, footer a:link {
+    color: white;
+}
+
+footer a:hover {
+    color: #11A8AB;
+}
+
+
+/* class  */
+.footer_icons {
+    font-size: x-large;
+}
