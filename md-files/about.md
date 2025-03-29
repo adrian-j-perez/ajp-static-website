@@ -3,11 +3,11 @@
 
 ## Adrian Perez
 
-
-![image adrian Perez](./../public/images/image-adrian.jpg)
+<p align="center"> 
+<img src="./../public/images/image-adrian.jpg" />
+</p>
 
 *image of my face...*
-
 
 ## Introduction
 
@@ -66,8 +66,5 @@ Some of my other hobbies include playing video games with friend, scrolling thro
 # Fun Fact!
 
 A fun fact about me is that if I were to choose a superpower it would be super speed
-
-
-
 
 

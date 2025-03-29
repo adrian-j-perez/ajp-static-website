@@ -1,49 +1,40 @@
-
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Quicksand", sans-serif;
 }
-/* todo reformate thing  */
+
 
 /* color based on win 10 theme */
 a:link {
     color: #1776C1;
 }
-a:visited  {
+a:visited {
     color: #11A8AB;
 }
-
 a:hover {
     color: #11A8AB;
-}
-footer a {
-    all:unset;
-}
-footer a:visited {
-    color:white;
-
-}
-footer a:hover {
-    color:#11A8AB;
-
 }
 
 
 /* markdown style block - get inject from cdn module */
+/* slowly remove this html taf */
 md-block {
     font-family: monospace;
     font-size: 18px;
 }
 
+
 .md-block {
     padding-left: 10%;
     padding-right: 10%;
-    padding-bottom: 2%;
+    padding-bottom: 5%;
     padding-top: 1%;
     /* adding a min height to help keep footer at the botton of the page*/
-    min-height: 55vh;  
+    min-height: 55vh;
+    /* font to use if there is not one set */
+    font-family: monospace; 
 }
 
 /* these are class name - will try to not use these */
@@ -57,9 +48,4 @@ md-block {
     padding-left: 10%;
     padding-right: 10%;
     font-size: 20px;
-}
-
-.material-symbols-outlined {
-    /* this deals with google icons */
-    font-size: larger;
 }

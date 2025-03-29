@@ -1,6 +1,8 @@
 
 # Run Website Locally
-**First off let me say you do not really need to follow this guide right away**. You can just open the index.html (by copying the file path) and start seeing some output in the browser, but not everything will load like the markdown text and images/icons.
+**First off let me say you do not really need to follow this guide right away**. 
+
+You can just open the index.html (by copying the file path) and start seeing some output in the browser, but not everything will load like the markdown text and images/icons (this is due to a cros security preventing this).
 
 # TD;LR
 Run this command in the project dir `python -m http.server` then go to `http://localhost:8000/index.html` 
@@ -27,12 +29,13 @@ by default it will make a url http://localhost:8000/
 
 # Optional Config Option 
 
-by using `http.server` you can change the port and the directory location that it will serve up
-can be useful if you current environment is already using the default port of 8000
+by using `http.server` you can change the port and the directory location that it will serve up, which
+can be useful if your current environment is already using the default port of 8000
 
 ## Port
 
 `python -m http.server <port-number>`
+
 example:
 `python -m http.server 8080`
 

@@ -88,5 +88,26 @@ Example Code:
 ```
 
 
-
+# moving here for now...
  
+## website structure 
+
+website home page when going to `ajp.adrianjperez.com` will end up with path `/page.home.html`
+in the root of the repo there is a index.html that does a redirect 
+
+### Folder Structure 
+``` 
+current file structure: 
+
+.
+├───.github
+│   └───workflows
+├───md-files
+├───page
+├───public
+│   └───images
+└───views
+    ├───footer
+    └───nav-bar
+
+```

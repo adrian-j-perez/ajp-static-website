@@ -3,30 +3,42 @@
 
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="Home page for Adrian - welcome" name="description" property="og:description">
+    <meta name="keywords" content="Home, Adrian Perez, Adrian, adrian, adrianjperez.com">
+    <meta name="author" content="Adrian Perez">
+    <meta content="https://ajp.adrianjperez.com" property="og:url">
+    <meta content="./../public/images/logo.png" property="og:image">
+    <meta content="#86CAFF" data-react-helmet="true" name="theme-color">
 
     <title>adrianjperez</title>
 
-
-    <!-- test -->
-    <meta content="Adrian Perez - Website" property="og:title" />
-    <meta content="Home page for adrian - welcome" property="og:description" />
-    <!-- add a meta tag for keywords? -->
-    <meta content="https://ajp.adrianjperez.com" property="og:url" />
-    <meta content="public\images\logo.png" property="og:image" />
-    <meta content="#86CAFF" data-react-helmet="true" name="theme-color" />
-    <!-- test -->
-
-
-    <!-- outside depends -->
+    <!-- START outside depends -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
-    <script type="module" src="https://md-block.verou.me/md-block.js"></script>
+    <!-- <script type="module" src="https://md-block.verou.me/md-block.js"></script> -->
+    <!-- removing the use of md-block and replacing with zero-md-->
 
 
-    <!-- list of local assects -->
+    <!-- import auto the zero-md with custom import -->
+    <!-- https://zerodevx.github.io/zero-md/?a=advanced-usage.md -->
+    <script type="module">
+        // Import element definition
+        import ZeroMd from 'https://cdn.jsdelivr.net/npm/zero-md@3'
+        // Register
+        customElements.define('zero-md', class extends ZeroMd {
+            async load() {
+                await super.load()
+                this.setAttribute('no-shadow', '') // don't use shadow dom
+            }
+        })
+    </script>
+
+
+    <!-- END outside depends -->
+
+    <!-- START list of local assects -->
 
     <link rel="stylesheet" href="./main.css">
     <script src="./main.js"></script>
@@ -36,7 +48,7 @@
 
     <!-- footer tag -->
     <script src="./../views/footer/footerBar.js"></script>
-
+    <!-- END list of local assects -->
 
 </head>
 
@@ -46,36 +58,11 @@
 
     <h2 class="myH2">Home</h2>
 
-
-    <!-- need div to put padding on text -->
     <div class="md-block">
-        <md-block src="../md-files/index.md">
-            <!-- by putting the src the below text will be replaced -->
-            This is a test
+        <!-- div to put padding on text -->
 
-            # Heading
-
-            Some *embedded* Markdown which `md-block` can convert for you!
-
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint
-            repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id
-            inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus
-            animi labore officiis minus laboriosam
-
-            here is a list
-            - one
-            - two
-            - 3
-            - other
-            - sub
-
-            ## header 2
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint
-            repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id
-            inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus
-            animi labore officiis minus laboriosam
-            repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id
-        </md-block>
+        <!-- <md-block src="./../md-files/index.md"></md-block> -->
+        <zero-md src="./../md-files/index.md"></zero-md>
     </div>
 
     <footerbar-header></footerbar-header>
