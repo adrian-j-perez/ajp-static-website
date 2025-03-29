@@ -19,6 +19,7 @@ a:hover {
 
 
 /* markdown style block - get inject from cdn module */
+/* slowly remove this html taf */
 md-block {
     font-family: monospace;
     font-size: 18px;
@@ -28,11 +29,12 @@ md-block {
 .md-block {
     padding-left: 10%;
     padding-right: 10%;
-    padding-bottom: 2%;
+    padding-bottom: 5%;
     padding-top: 1%;
     /* adding a min height to help keep footer at the botton of the page*/
     min-height: 55vh;
-    font-family: monospace;
+    /* font to use if there is not one set */
+    font-family: monospace; 
 }
 
 /* these are class name - will try to not use these */

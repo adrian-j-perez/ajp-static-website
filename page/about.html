@@ -4,14 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="About Page - Adrian" name="description" property="og:description">
+    <meta name="author" content="Adrian Perez">
+    <meta content="https://ajp.adrianjperez.com/page/about.html" property="og:url">
+    <meta content="./../public/images/logo.png" property="og:image">
+    <meta content="#86CAFF" data-react-helmet="true" name="theme-color">
 
     <title>About</title>
 
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
-    <script type="module" src="https://md-block.verou.me/md-block.js"></script>
-
+    <!-- import auto the zero-md with custom import -->
+    <!-- https://zerodevx.github.io/zero-md/?a=advanced-usage.md -->
+    <script type="module">
+        // Import element definition
+        import ZeroMd from 'https://cdn.jsdelivr.net/npm/zero-md@3'
+        // Register
+        customElements.define('zero-md', class extends ZeroMd {
+            async load() {
+                await super.load()
+                this.setAttribute('no-shadow', '') // don't use shadow dom
+            }
+        })
+    </script>
 
     <!-- list of local assects -->
 
@@ -33,10 +48,7 @@
     <h2 class="myH2">About</h2>
 
     <div class="md-block">
-        <md-block src="./../md-files/about.md" class="md-block">
-            # Error Loading File...
-            issue with loading markdown file
-        </md-block>
+        <zero-md src="./../md-files/about.md"></zero-md>
     </div>
 
     <!-- add footer -->
