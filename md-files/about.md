@@ -48,7 +48,7 @@ Other Languages:
 
 ## Background
 
-Hello, and welcome to my website! As you saw at the top, my name is Adrian, and I graduated in May 2022 from Lewis University. I attended school full-time for four years, during that time I spent most of my time learning something new, homework, or working on weekends. I majored in Computer Science with a concentration in Software Engineering with a minor in Mathematics. While at collage I found a interest in Cyber Security and Data Science 
+Hello, and welcome to my website! As you saw at the top, my name is Adrian, and I graduated in May 2022 from Lewis University. I attended school full-time for four years, during that time I spent most of my time learning something new, homework, or working on weekends. I majored in Computer Science with a concentration in Software Engineering with a minor in Mathematics. While at college I found a interest in Cyber Security and Data Science and try to continue it as a hobby.
 
 ### What I Hope to Learn
 

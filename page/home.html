@@ -17,23 +17,9 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
-    <!-- <script type="module" src="https://md-block.verou.me/md-block.js"></script> -->
-    <!-- removing the use of md-block and replacing with zero-md-->
 
-
-    <!-- import auto the zero-md with custom import -->
-    <!-- https://zerodevx.github.io/zero-md/?a=advanced-usage.md -->
-    <script type="module">
-        // Import element definition
-        import ZeroMd from 'https://cdn.jsdelivr.net/npm/zero-md@3'
-        // Register
-        customElements.define('zero-md', class extends ZeroMd {
-            async load() {
-                await super.load()
-                this.setAttribute('no-shadow', '') // don't use shadow dom
-            }
-        })
-    </script>
+    <!-- Import element definition and auto-register -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/zero-md@3?register"></script>
 
 
     <!-- END outside depends -->
@@ -60,9 +46,7 @@
 
     <div class="md-block">
         <!-- div to put padding on text -->
-
-        <!-- <md-block src="./../md-files/index.md"></md-block> -->
-        <zero-md src="./../md-files/index.md"></zero-md>
+        <zero-md src="./../md-files/index.md" no-shadow="true"></zero-md>
     </div>
 
     <footerbar-header></footerbar-header>
