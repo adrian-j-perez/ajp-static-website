@@ -9,24 +9,19 @@
     <title>Contact</title>
 
     <!-- outside depends -->
-    
+
     <!-- this is for the nav bar animation -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-
-
-    <script type="module" src="https://md-block.verou.me/md-block.js"></script>
-
+    <!-- markdown render -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/zero-md@3?register"></script>
+    <!-- icons  -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
 
     <!-- list of local assets -->
-
     <link rel="stylesheet" href="./main.css">
-
     <script src="./main.js"></script>
-
     <!-- add nav bar -->
     <script src="./../views/nav-bar/navHeader.js"></script>
-
     <!-- footer tag -->
     <script src="./../views/footer/footerBar.js"></script>
 
@@ -62,11 +57,9 @@
 
 
     <div class="md-block">
-        <md-block src="./../md-files/contact.md">
-            # Error Loading File...
-            issue with loading markdown file
-            ## Fallback Text
-        </md-block>
+        <zero-md src="./../md-files/contact.md" no-shadow="true">
+
+        </zero-md>
     </div>
 
     <!-- add footer -->
